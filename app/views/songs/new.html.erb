@@ -5,7 +5,7 @@
     <%= f.text_field :title %>
 
     <%= f.label :released %>
-    <%= f.radio_button :released, :checked => true %>
+    <%= f.radio_button :released, @song.released %>
 
     <%= f.label :release_year %>
     <%= f.text_field :release_year %>
